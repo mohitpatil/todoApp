@@ -59,7 +59,7 @@ class Newtodo extends Component {
 
     addTodo(e) {
         const isValid = this.validate();
-        if(isValid) {
+        if (isValid) {
         const list = this.state.newText;
         const newList = {
             modText: this.state.modifiedText,
