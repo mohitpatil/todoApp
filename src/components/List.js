@@ -2,7 +2,7 @@ import React from 'react';
 import Moment from 'react-moment';
 
 const List = (props) => {
-    console.log('props', props);
+    //console.log('props', props);
 
     return (
         <React.Fragment>
